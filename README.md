@@ -1,4 +1,4 @@
-WMS User Group 2017 preconference 2017 Application
+WMS Midwest Meeting 2018 - API Workshop Application
 =============
 This is a demonstration application written to how to interact with OCLC web service in PHP. It uses best programming practices like 
 - dependency management
@@ -16,8 +16,8 @@ In a Terminal Window
 
 ```bash
 $ cd {yourGitHomeDirectory}
-$ git clone https://github.com/OCLC-Developer-Network/wms_users_2017.git
-$ cd wms_users_2017
+$ git clone https://github.com/OCLC-Developer-Network/wms-midwest-2018.git
+$ cd wms-midwest-2018
 ```
 
 ### Step 2: Use composer to install the dependencies
@@ -32,7 +32,7 @@ $ php composer.phar install
 Windows:
 
 1. Download and run [Composer-Setup.exe](https://getcomposer.org/doc/00-intro.md#installation-windows)
-2. Run this command in your wms_users_2017 directory
+2. Run this command in your wms-midwest-2018 directory
 
 ```bash
 $ composer install
@@ -72,7 +72,7 @@ Point your web browser at the localhost address where these instructions will in
 From the command line run
 
 ```bash
-$ vendor/bin phpunit
+$ vendor/bin/phpunit
 ```
 
 ### Behavior Driven Functional Tests
@@ -84,10 +84,10 @@ $ php -S localhost:9090 features/test.php
 
 #### Run tests
 ```bash
-$ vendor/bin behat
+$ vendor/bin/behat
 ```
 
 ## How this was built
 
-For a step by step tutorial on this application see the [tutorial section](https://github.com/OCLC-Developer-Network/wms_users_2017/tree/master/tutorial)
+For a step by step tutorial on this application see the [tutorial section](https://github.com/OCLC-Developer-Network/wms-midwest-2018/tree/master/tutorial)
 

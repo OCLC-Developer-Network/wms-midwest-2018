@@ -1,5 +1,5 @@
 # A Beginner's Guide to Working with WorldShare APIs
-## OCLC WMS Global Community + User Group Meeting 2017: Pre-Conference Workshop
+## WMS Midwest Meeting 2018 - API Workshop
 ### Tutorial Part 1 - Project Overview
 
 1. What we're going to build.

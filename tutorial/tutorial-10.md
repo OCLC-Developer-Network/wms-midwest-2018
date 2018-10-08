@@ -1,5 +1,5 @@
 # A Beginner's Guide to Working with WorldShare APIs
-## OCLC WMS Global Community + User Group Meeting 2017: Pre-Conference Workshop
+## WMS Midwest Meeting 2018 - API Workshop
 ### Tutorial Part 10 - Dynamic Views
 Views can be use content to be dynamically generated. Data is passed into the view via an associative array.
 The key of the array is the name of the variable in the view.

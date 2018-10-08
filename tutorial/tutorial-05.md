@@ -1,5 +1,5 @@
 # A Beginner's Guide to Working with WorldShare APIs
-## OCLC WMS Global Community + User Group Meeting 2017: Pre-Conference Workshop
+## WMS Midwest Meeting 2018 - API Workshop
 ### Tutorial Part 5 - Creating Models Using Test Driven Development
 
 #### Test Setup
@@ -42,16 +42,16 @@
 ```
 4. Populate the `tests` directory
     1. Add a file called `getMocks.php` to the `tests` directory
-    2. Add [this code](https://raw.githubusercontent.com/OCLC-Developer-Network/wms_users_2017/master/tests/getMocks.php) to the file and save it.
+    2. Add [this code](https://raw.githubusercontent.com/OCLC-Developer-Network/wms-midwest-2018/master/tests/getMocks.php) to the file and save it.
     3. Add a file called `mockBuilder.yml` to the `tests` directory
-    4. Add [this code](https://raw.githubusercontent.com/OCLC-Developer-Network/wms_users_2017/master/tests/mockBuilder.yml) to the file and save it.
+    4. Add [this code](https://raw.githubusercontent.com/OCLC-Developer-Network/wms-midwest-2018/master/tests/mockBuilder.yml) to the file and save it.
     5. Create a directory within `tests` called `mocks`
     6. Add the following files to `mocks` containing the linked code
-        1. [bibSuccess](https://raw.githubusercontent.com/OCLC-Developer-Network/wms_users_2017/master/tests/mocks/bibSuccess)
-        2. [bibSuccessJournal](https://raw.githubusercontent.com/OCLC-Developer-Network/wms_users_2017/master/tests/mocks/bibSuccessJournal)
-        3. [failureExpiredAccessToken](https://raw.githubusercontent.com/OCLC-Developer-Network/wms_users_2017/master/tests/mocks/failureExpiredAccessToken)
-        4. [failureInvalidAccessToken](https://raw.githubusercontent.com/OCLC-Developer-Network/wms_users_2017/master/tests/mocks/failureInvalidAccessToken)
-        5. [marcRecord.xml](https://raw.githubusercontent.com/OCLC-Developer-Network/wms_users_2017/master/tests/mocks/marcRecord.xml)
+        1. [bibSuccess](https://raw.githubusercontent.com/OCLC-Developer-Network/wms-midwest-2018/master/tests/mocks/bibSuccess)
+        2. [bibSuccessJournal](https://raw.githubusercontent.com/OCLC-Developer-Network/wms-midwest-2018/master/tests/mocks/bibSuccessJournal)
+        3. [failureExpiredAccessToken](https://raw.githubusercontent.com/OCLC-Developer-Network/wms-midwest-2018/master/tests/mocks/failureExpiredAccessToken)
+        4. [failureInvalidAccessToken](https://raw.githubusercontent.com/OCLC-Developer-Network/wms-midwest-2018/master/tests/mocks/failureInvalidAccessToken)
+        5. [marcRecord.xml](https://raw.githubusercontent.com/OCLC-Developer-Network/wms-midwest-2018/master/tests/mocks/marcRecord.xml)
 5. In tests directory create a file named bootstrap.php
 6. Require vendor autoload file
 ```php

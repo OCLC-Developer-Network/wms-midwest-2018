@@ -1,10 +1,10 @@
 # A Beginner's Guide to Working with WorldShare APIs
-## OCLC WMS Global Community + User Group Meeting 2017: Pre-Conference Workshop
+## WMS Midwest Meeting 2018 - API Workshop
 ### Tutorial Part 2 - Setting Up Your Project & Version Control
 
 1. We're going to use git to control versioning of our code, and host our code repositories on GitHub. First, create an empty repository on [github.com](https://github.com/) for your code.
 	1. Click "New repository"
-	2. Title your repository "wms_users_2017"
+	2. Title your repository "wms-midwest-2018"
 	3. Check the box next to "Initialize this repository with a README"
 	4. Click "Create repository"
 2. In a terminal window, change into the following directory:
@@ -13,11 +13,11 @@ $ cd /your-bitnami-installation-directory/apache2/htdocs
 ```
 3. Enter this command to clone the repository you just created, substituting your GitHub username for `your-github-username`:
 ```bash
-$ git clone https://github.com/your-github-username/wms_users_2017.git
+$ git clone https://github.com/your-github-username/wms-midwest-2018.git
 ```
-4. You should now have a subdirectory called `wms_users_2017` with an empty README.md file in it.
+4. You should now have a subdirectory called `wms-midwest-2018` with an empty README.md file in it.
 ```bash
-$ cd wms_users_2017/
+$ cd wms-midwest-2018/
 $ ls
 README.md
 ```
@@ -50,7 +50,7 @@ README.md
 	```bash
 	$ git push origin master
 	```
-	7. In your browser, head back to your GitHub repository at https://github.com/your-github-username/wms_users_2017, and you should see the changes you just made to your README file.
+	7. In your browser, head back to your GitHub repository at https://github.com/your-github-username/wms-midwest-2018, and you should see the changes you just made to your README file.
 
 **[on to Part 3](tutorial-03.md)**
 

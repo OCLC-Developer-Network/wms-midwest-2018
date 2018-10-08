@@ -1,12 +1,12 @@
 # A Beginner's Guide to Working with WorldShare APIs
-## OCLC WMS Global Community + User Group Meeting 2017: Pre-Conference Workshop
+## WMS Midwest Meeting 2018 - API Workshop
 ### Tutorial Part 3 - Dependency Management
 
 1. We'll be using a tool called [Composer](https://getcomposer.org/) to manage our project's dependencies. By "dependencies" we mean the code libraries and other external resources that our project requires in order to run. This includes the OCLC PHP Authentication Library, the MVC framework Slim, the MARC record parser we'll need, and so on.
 2. In your project file, create a file called `composer.json`.
 	1. `$ touch composer.json`
 3. Open `composer.json` in your text editor.
-4. Copy and paste [this text](https://raw.githubusercontent.com/OCLC-Developer-Network/wms_users_2017/master/composer.json) into the file.
+4. Copy and paste [this text](https://raw.githubusercontent.com/OCLC-Developer-Network/wms-midwest-2018/master/composer.json) into the file.
 5. Save the file.
 6. Create the following directories:
 ```bash
@@ -22,7 +22,7 @@ $ composer install
 	1. To tell git to ignore the `/vendor/` directory, create a `.gitignore` file:
 		1. `$ touch .gitignore`
 	2. Open `.gitignore` in your text editor.
-	3. Copy and paste [this text](https://github.com/OCLC-Developer-Network/wms_users_2017/blob/master/.gitignore) into the file.
+	3. Copy and paste [this text](https://github.com/OCLC-Developer-Network/wms-midwest-2018/blob/master/.gitignore) into the file.
 		1. (This includes a few resources other than `/vendor/`, but we'll get to those later. :wink:)
 	4. Save the file.
 9. We're now ready to commit our changes to GitHub. To view local changes not yet commited, enter this command:
@@ -49,7 +49,7 @@ Just in case you need to install Composer (you shouldn't, because it comes packa
 	`$ php composer.phar install`
 2. Windows users:
 	1. Download and run [Composer-Setup.exe](https://getcomposer.org/doc/00-intro.md#installation-windows)
-	2. Run this command in your wms_users_2017 directory to install dependencies:
+	2. Run this command in your wms-midwest-2018 directory to install dependencies:
 	```bash
 	$ composer install
 	```

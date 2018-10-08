@@ -1,5 +1,5 @@
 # A Beginner's Guide to Working with WorldShare APIs
-## OCLC WMS Global Community + User Group Meeting 2017: Pre-Conference Workshop
+## WMS Midwest Meeting 2018 - API Workshop
 ### Preparing for the Workshop
 
 Please note that you will need a laptop on which you have administrator privileges in order to complete this workshop.
@@ -33,7 +33,6 @@ Please note that you will need a laptop on which you have administrator privileg
 		1. Add `/installation_directory/php/bin`
 	2. [Windows](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/)
 		1. Add `C:\installation_directory\php`
-		2. **September 26, 2017 workshop attendees: note removal of `\bin` in path above.**
 	3. Linux (you probably already know what you're doing :wink:)
 8. Make sure you have a **text editor** installed for writing code. Some of our favorites include Sublime Text (Mac) and NotePad++ (Windows).
 9. Let us know if you have any questions at [devnet@oclc.org](mailto:devnet@oclc.org). We're happy to help you get set up.
